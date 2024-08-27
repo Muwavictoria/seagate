@@ -1,233 +1,410 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About- SeaGate Electric</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- top bar -->
-    <div id="topbar" class="bg-red-500 flex align-top text-white top-0 z-10 opacity-85 " >
-        <section class="max-w-4xl mx-auto p-4 flex justify-between items-center space-x-1 md:space-x-12 ">
-          <div class="hidden sm:block">
-            <a href="tel:+256414672855" class="text-light"><i class="bi bi-telephone-fill h6"></i> 0414672855 </a>
-          </div>
-          <div class = "mx-auto">
-            <i class="bi bi-geo-alt-fill h6"></i> Plot 25A Mukubira Road Makerere, Kampala, Uganda
-          </div>
-          <div class="hidden  sm:block">
-              <a href="mailto:info@seagate-electric.co.ug" class="text-light"> <i class="bi bi-envelope-fill h6"></i> info@seagate-electric.co.ug</a>
-          </div>
-        </section>
+    <div
+      id="topbar"
+      class="bg-red-500 flex align-top text-white top-0 z-10 opacity-85"
+    >
+      <section
+        class="max-w-4xl mx-auto p-4 flex justify-between items-center space-x-1 md:space-x-12"
+      >
+        <div class="hidden sm:block">
+          <a href="tel:+256414672855" class="text-light"
+            ><i class="bi bi-telephone-fill h6"></i> 0414672855
+          </a>
+        </div>
+        <div class="mx-auto">
+          <i class="bi bi-geo-alt-fill h6"></i> Plot 25A Mukubira Road Makerere,
+          Kampala, Uganda
+        </div>
+        <div class="hidden sm:block">
+          <a href="mailto:info@seagate-electric.co.ug" class="text-light">
+            <i class="bi bi-envelope-fill h6"></i>
+            info@seagate-electric.co.ug</a
+          >
+        </div>
+      </section>
     </div>
 
     <!-- header -->
-    <header id="header" class="bg-gray-300 text-black flex items-center justify-between p-4 sticky top-0 z-10 shadow-md opacity-70">
-        
-        <div class="flex items-center">
-          <h1 class="logo">
-            <a href="/"><img src="./img/logo.png" alt="logo" class="h-10 w-auto"></a>
-          </h1>
+    <header
+      id="header"
+      class="bg-gray-300 text-black flex items-center justify-between p-4 sticky top-0 z-10 shadow-md opacity-70"
+    >
+      <div class="flex items-center">
+        <h1 class="logo">
+          <a href="/"
+            ><img src="./img/logo.png" alt="logo" class="h-10 w-auto"
+          /></a>
+        </h1>
+      </div>
+
+      <nav id="navbar" class="hidden md:flex space-x-6 uppercase">
+        <ul class="flex space-x-4 font-bold">
+          <li><a href="/" class="active">Home</a></li>
+          <li><a href="/about/0">The Company</a></li>
+          <li class="dropdown relative">
+            <a href="#" class="flex items-center"
+              ><span>Services</span><i class="bi bi-chevron-down ml-1"></i
+            ></a>
+            <ul
+              class="absolute left-0 mt-2 hidden bg-white shadow-md rounded-md"
+            >
+              <li>
+                <a href="/services/service/1" class="block px-4 py-2"
+                  >Fibre Infrastructure Services</a
+                >
+              </li>
+              <li>
+                <a href="/services/service/2" class="block px-4 py-2"
+                  >Wireless And Radio Services</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown relative">
+            <a href="#" class="flex items-center"
+              ><span>Products</span><i class="bi bi-chevron-down ml-1"></i
+            ></a>
+            <ul
+              class="absolute left-0 mt-2 hidden bg-white shadow-md rounded-md"
+            >
+              <li>
+                <a href="/2" class="block px-4 py-2">ODFs/ Patch Panel</a>
+              </li>
+              <li><a href="/3" class="block px-4 py-2">Joint Enclosure</a></li>
+              <li>
+                <a href="/4" class="block px-4 py-2">Fiber Access Terminal</a>
+              </li>
+              <li><a href="/5" class="block px-4 py-2">Street Cabinet</a></li>
+              <li><a href="/6" class="block px-4 py-2">Manhole Covers</a></li>
+            </ul>
+          </li>
+          <li class="dropdown relative">
+            <a href="#" class="flex items-center"
+              ><span>Our Tools</span><i class="bi bi-chevron-down ml-1"></i
+            ></a>
+            <ul
+              class="absolute left-0 mt-2 hidden bg-white shadow-md rounded-md"
+            >
+              <li>
+                <a
+                  href="/tools/Yokagawa%20AT7280%20OTDR"
+                  class="block px-4 py-2"
+                  >Yokagawa AT7280 OTDR</a
+                >
+              </li>
+              <li>
+                <a href="/tools/Sumitomo%20FC-6+" class="block px-4 py-2"
+                  >Sumitomo FC-6+</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/tools/T%2057%20splicing%20machine"
+                  class="block px-4 py-2"
+                  >T 57 splicing machine</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="/contact/" class="">Contact</a></li>
+        </ul>
+
+        <div class="flex lg:hidden">
+          <button
+            class="-m-2 5 inline-flex items-center justify-center rounded-md p-2 5 text-gray-700"
+          >
+            <i class="bi bi-list mobile-nav-toggle h-6 w-6"></i>
+          </button>
         </div>
-    
-        <nav id="navbar" class="hidden md:flex space-x-6 uppercase">
-          <ul class="flex space-x-4 font-bold">
-            <li><a href="/" class="active">Home</a></li>
-            <li><a href="/about/0">The Company</a></li>
-            <li class="dropdown relative">
-              <a href="#" class="flex items-center"><span>Services</span><i class="bi bi-chevron-down ml-1"></i></a>
-              <ul class="absolute left-0 mt-2 hidden bg-white shadow-md rounded-md">
-                <li><a href="/services/service/1" class="block px-4 py-2">Fibre Infrastructure Services</a></li>
-                <li><a href="/services/service/2" class="block px-4 py-2">Wireless And Radio Services</a></li>
-              </ul>
-            </li>
-            <li class="dropdown relative">
-              <a href="#" class="flex items-center"><span>Products</span><i class="bi bi-chevron-down ml-1"></i></a>
-              <ul class="absolute left-0 mt-2 hidden bg-white shadow-md rounded-md">
-                <li><a href="/2" class="block px-4 py-2">ODFs/ Patch Panel</a></li>
-                <li><a href="/3" class="block px-4 py-2">Joint Enclosure</a></li>
-                <li><a href="/4" class="block px-4 py-2">Fiber Access Terminal</a></li>
-                <li><a href="/5" class="block px-4 py-2">Street Cabinet</a></li>
-                <li><a href="/6" class="block px-4 py-2">Manhole Covers</a></li>
-              </ul>
-            </li>
-            <li class="dropdown relative">
-              <a href="#" class="flex items-center"><span>Our Tools</span><i class="bi bi-chevron-down ml-1"></i></a>
-              <ul class="absolute left-0 mt-2 hidden bg-white shadow-md rounded-md">
-                <li><a href="/tools/Yokagawa%20AT7280%20OTDR" class="block px-4 py-2">Yokagawa AT7280 OTDR</a></li>
-                <li><a href="/tools/Sumitomo%20FC-6+" class="block px-4 py-2">Sumitomo FC-6+</a></li>
-                <li><a href="/tools/T%2057%20splicing%20machine" class="block px-4 py-2">T 57 splicing machine</a></li>
-              </ul>
-            </li>
-            <li><a href="/contact/" class="">Contact</a></li>
-          </ul>
+      </nav>
 
-          <div class="flex lg:hidden">
-            <button class="-m-2 5 inline-flex items-center justify-center rounded-md p-2 5 text-gray-700">
-              <i class="bi bi-list mobile-nav-toggle h-6 w-6"></i>
-            </button>
-            
-          </div>
-          
-        </nav>
-    
-        <div class="header-social-links hidden md:flex space-x-4">
-          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
-      </header>
-    <div class="flex h-1/4 justify-center items-center" style="background-image: url('./img/contact.jfif');margin-top:-1px; background-repeat: no-repeat; background-size: cover; background-position: center center;">
-        <div class="  text-center items-center p-4">
-
-            <h2 class="text-white text-4xl font-medium p-1">About us</h2>
-            <ol class=" flex justify-center space-x-2 p-1">
-            <li><a href="/">Home</a></li>
-            <span class="space-x-2 text- text-white">/</span>
-            <li class="text-white">Contact</li>
-            </ol>
-
-    </div>
+      <div class="header-social-links hidden md:flex space-x-4">
+        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </header>
+    <div
+      class="flex h-1/4 justify-center items-center"
+      style="
+        background-image: url(&quot;./img/contact.jfif&quot;);
+        margin-top: -1px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      "
+    >
+      <div class="text-center items-center p-4">
+        <h2 class="text-white text-4xl font-medium p-1">About us</h2>
+        <ol class="flex justify-center space-x-2 p-1">
+          <li><a href="/">Home</a></li>
+          <span class="space-x-2 text- text-white">/</span>
+          <li class="text-white">Contact</li>
+        </ol>
+      </div>
     </div>
     <section id="about-us" class="about-us py-12">
-        <div class="container mx-auto" data-aos="fade-up">
-    
-          <div class="flex flex-wrap content">
-            <div class="w-full lg:w-1/2 px-4" data-aos="fade-right">
-              <h2 class="text-4xl font-bold mb-4">Reliable Services</h2>
-              <div class="text-sm">
+      <div class="container mx-auto" data-aos="fade-up">
+        <div class="flex flex-wrap content">
+          <div class="w-full lg:w-1/2 px-4" data-aos="fade-right">
+            <h2 class="text-4xl font-bold mb-4">Reliable Services</h2>
+            <div class="text-sm">
               <p class="mb-4">
-                Over the years we have worked with ISP and telecom operators to bring their services close to where people reside or work. Our various engineering teams are experienced in most common transmission systems delivering Voice, data and video over high-speed transmission links.
+                Over the years we have worked with ISP and telecom operators to
+                bring their services close to where people reside or work. Our
+                various engineering teams are experienced in most common
+                transmission systems delivering Voice, data and video over
+                high-speed transmission links.
               </p>
-              <ul class="custom-list space-y-2 " >
+              <ul class="custom-list space-y-2">
                 <li class="">Radio and wireless network installation.</li>
                 <li>Fibre to home / between buildings.</li>
-                <li>3G/4G RBS Installations Configurations, Commissioning and Network Optimization.</li>
-                <li>Microwave link installation to RF and baseband troubleshooting.</li>
+                <li>
+                  3G/4G RBS Installations Configurations, Commissioning and
+                  Network Optimization.
+                </li>
+                <li>
+                  Microwave link installation to RF and baseband
+                  troubleshooting.
+                </li>
               </ul>
             </div>
-            </div>
-            <div class="w-full lg:w-1/2 px-4 pt-8 lg:pt-0" data-aos="fade-left">
-              <img src="./img/menatwork.jpeg" alt="Men at Work" class="max-h-96 mx-auto"/>
-            </div>
           </div>
-    
-        </div>
-      </section>
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services section-bg">
-        <div class="container mx-auto" data-aos="fade-up">
-          <div class="flex flex-wrap justify-between p-5 space-y-4 md:space-y-0 md:space-x-4">
-            
-            <!-- Vision Card -->
-            <div class="flex-1 min-w-[300px] max-w-[32%] bg-white p-6 rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="100">
-              <div class="icon-box text-center">
-                <div class="icon text-4xl mb-4"><i class="bi bi-eyeglasses"></i></div>
-                <h4 class="text-xl font-semibold mb-2"><a href="">Our Vision</a></h4>
-                <p>Enhancing image and market share by consistently identifying and meeting its customers&#x27; requirements, needs, and expectations by remaining always customer focused.</p>
-              </div>
-            </div>
-      
-            <!-- Mission Card -->
-            <div class="flex-1 min-w-[300px] max-w-[32%] bg-white p-6 rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="200">
-              <div class="icon-box text-center">
-                <div class="icon text-4xl mb-4"><i class="bi bi-bullseye"></i></div>
-                <h4 class="text-xl font-semibold mb-2"><a href="">Our Mission</a></h4>
-                <p>To Connect Businesses And Homes Across Africa And Beyond</p>
-              </div>
-            </div>
-      
-            <!-- Core Values Card -->
-            <div class="flex-1 min-w-[300px] max-w-[32%] bg-white p-6 rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="300">
-              <div class="icon-box text-center">
-                <div class="icon text-4xl mb-4"><i class="bi bi-balloon"></i></div>
-                <h4 class="text-xl font-semibold mb-2"><a href="">Core Values</a></h4>
-                <p>Customer Focus, Integrity, Innovation, Accountability, Team Work, Passion</p>
-              </div>
-            </div>
-      
+          <div class="w-full lg:w-1/2 px-4 pt-8 lg:pt-0" data-aos="fade-left">
+            <img
+              src="./img/menatwork.jpeg"
+              alt="Men at Work"
+              class="max-h-96 mx-auto"
+            />
           </div>
         </div>
-      </section>
-      
-      <!-- ======= Footer ======= -->
-  <footer id="footer" class="bg-gray-800 text-gray-400 py-12">
-    <div class="footer-top">
-      <div class="container mx-auto px-4">
-        <div class="flex flex-wrap -mx-4">
-          
-          <div class="w-full lg:w-1/4 px-4 mb-8 lg:mb-0">
-            <h3 class="text-white text-xl font-bold">SeaGate Electric LTD</h3>
-            <p class="mt-4">
-              Plot 25A <br>
-              Mukubira Road Makerere<br>
-              Kampala Uganda <br><br>
-              <strong>Phone:</strong> +256 414672855<br>
-              <strong>Email:</strong> info@seagate-electric.co.ug<br>
-            </p>
-          </div>
-  
-          <div class="w-full lg:w-1/6 px-4 mb-8 lg:mb-0">
-            <h4 class="text-white text-lg font-semibold">Useful Links</h4>
-            <ul class="mt-4 space-y-2">
-              <li><i class="bx bx-chevron-right text-gray-500"></i> <a href="/" class="hover:underline">Home</a></li>
-              <li><i class="bx bx-chevron-right text-gray-500"></i> <a href="/about/0" class="hover:underline">The Company</a></li>
-              <li><i class="bx bx-chevron-right text-gray-500"></i> <a href="/services/service/1" class="hover:underline">Our Services</a></li>
-              <li><i class="bx bx-chevron-right text-gray-500"></i> <a href="/2" class="hover:underline">Our Products</a></li>
-              <li><i class="bx bx-chevron-right text-gray-500"></i> <a href="/tools/Sumitomo%20FC-6+" class="hover:underline">Our Tools</a></li>
-            </ul>
-          </div>
-  
-          <div class="w-full lg:w-1/4 px-4 mb-8 lg:mb-0">
-            <h4 class="text-white text-lg font-semibold">Our Services</h4>
-            <ul class="mt-4 space-y-2">
-              <li><i class="bx bx-chevron-right text-gray-500"></i> <a href="/services/service/1" class="hover:underline">Fibre Infrastructure</a></li>
-              <li><i class="bx bx-chevron-right text-gray-500"></i> <a href="/services/service/2" class="hover:underline">Radio And Wireless Networks</a></li>
-            </ul>
-          </div>
-  
-          <div class="w-full lg:w-1/3 px-4">
-            <h4 class="text-white text-lg font-semibold">Want to stay in the loop?</h4>
-            <p class="mt-4">Sign up for the latest deals, product news, and more from SeaGate Electric</p>
-            <form action="/contact/Home" method="POST" class="mt-4">
-              <input type="hidden" name="csrfmiddlewaretoken" value="j37Zb10EklHuRXVByo1Avy0Ic2utDhjjNnLP7Ghr95AuFUPZrqlgepzq0nEM0LMl">
-              <div class="flex items-center">
-                <input type="email" name="email" required id="id_email" class="w-full px-4 py-2 text-gray-800 rounded-l-md focus:outline-none" placeholder="Your Email">
-                <button type="submit" class="px-4 py-2 bg-green-500 text-white rounded-r-md hover:bg-green-600 font-2">SignUp</button>
+      </div>
+    </section>
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container mx-auto" data-aos="fade-up">
+        <div
+          class="flex flex-wrap justify-between p-5 space-y-4 md:space-y-0 md:space-x-4"
+        >
+          <!-- Vision Card -->
+          <div
+            class="flex-1 min-w-[300px] max-w-[32%] bg-white p-6 rounded-lg shadow-lg"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <div class="icon-box text-center">
+              <div class="icon text-4xl mb-4">
+                <i class="bi bi-eyeglasses"></i>
               </div>
-            </form>
+              <h4 class="text-xl font-semibold mb-2">
+                <a href="">Our Vision</a>
+              </h4>
+              <p>
+                Enhancing image and market share by consistently identifying and
+                meeting its customers&#x27; requirements, needs, and
+                expectations by remaining always customer focused.
+              </p>
+            </div>
           </div>
-  
+
+          <!-- Mission Card -->
+          <div
+            class="flex-1 min-w-[300px] max-w-[32%] bg-white p-6 rounded-lg shadow-lg"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <div class="icon-box text-center">
+              <div class="icon text-4xl mb-4">
+                <i class="bi bi-bullseye"></i>
+              </div>
+              <h4 class="text-xl font-semibold mb-2">
+                <a href="">Our Mission</a>
+              </h4>
+              <p>To Connect Businesses And Homes Across Africa And Beyond</p>
+            </div>
+          </div>
+
+          <!-- Core Values Card -->
+          <div
+            class="flex-1 min-w-[300px] max-w-[32%] bg-white p-6 rounded-lg shadow-lg"
+            data-aos="zoom-in"
+            data-aos-delay="300"
+          >
+            <div class="icon-box text-center">
+              <div class="icon text-4xl mb-4">
+                <i class="bi bi-balloon"></i>
+              </div>
+              <h4 class="text-xl font-semibold mb-2">
+                <a href="">Core Values</a>
+              </h4>
+              <p>
+                Customer Focus, Integrity, Innovation, Accountability, Team
+                Work, Passion
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  
-    <div class="container mx-auto px-4 flex flex-wrap items-center justify-between py-4 border-t border-gray-700">
-      <div class="text-center lg:text-left">
-        <div class="copyright">
-          &copy; <strong>SeaGate Electric</strong>. All Rights Reserved
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="bg-gray-800 text-gray-400 py-12">
+      <div class="footer-top">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full lg:w-1/4 px-4 mb-8 lg:mb-0">
+              <h3 class="text-white text-xl font-bold">SeaGate Electric LTD</h3>
+              <p class="mt-4">
+                Plot 25A <br />
+                Mukubira Road Makerere<br />
+                Kampala Uganda <br /><br />
+                <strong>Phone:</strong> +256 414672855<br />
+                <strong>Email:</strong> info@seagate-electric.co.ug<br />
+              </p>
+            </div>
+
+            <div class="w-full lg:w-1/6 px-4 mb-8 lg:mb-0">
+              <h4 class="text-white text-lg font-semibold">Useful Links</h4>
+              <ul class="mt-4 space-y-2">
+                <li>
+                  <i class="bx bx-chevron-right text-gray-500"></i>
+                  <a href="/" class="hover:underline">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right text-gray-500"></i>
+                  <a href="/about/0" class="hover:underline">The Company</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right text-gray-500"></i>
+                  <a href="/services/service/1" class="hover:underline"
+                    >Our Services</a
+                  >
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right text-gray-500"></i>
+                  <a href="/2" class="hover:underline">Our Products</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right text-gray-500"></i>
+                  <a href="/tools/Sumitomo%20FC-6+" class="hover:underline"
+                    >Our Tools</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="w-full lg:w-1/4 px-4 mb-8 lg:mb-0">
+              <h4 class="text-white text-lg font-semibold">Our Services</h4>
+              <ul class="mt-4 space-y-2">
+                <li>
+                  <i class="bx bx-chevron-right text-gray-500"></i>
+                  <a href="/services/service/1" class="hover:underline"
+                    >Fibre Infrastructure</a
+                  >
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right text-gray-500"></i>
+                  <a href="/services/service/2" class="hover:underline"
+                    >Radio And Wireless Networks</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="w-full lg:w-1/3 px-4">
+              <h4 class="text-white text-lg font-semibold">
+                Want to stay in the loop?
+              </h4>
+              <p class="mt-4">
+                Sign up for the latest deals, product news, and more from
+                SeaGate Electric
+              </p>
+              <form action="/contact/Home" method="POST" class="mt-4">
+                <input
+                  type="hidden"
+                  name="csrfmiddlewaretoken"
+                  value="j37Zb10EklHuRXVByo1Avy0Ic2utDhjjNnLP7Ghr95AuFUPZrqlgepzq0nEM0LMl"
+                />
+                <div class="flex items-center">
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    id="id_email"
+                    class="w-full px-4 py-2 text-gray-800 rounded-l-md focus:outline-none"
+                    placeholder="Your Email"
+                  />
+                  <button
+                    type="submit"
+                    class="px-4 py-2 bg-green-500 text-white rounded-r-md hover:bg-green-600 font-2"
+                  >
+                    SignUp
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="text-center">
-        <div>Designed by <a href="https://jonestah.com/" class="hover:underline text-gray-500">Jones & Estah Systems</a></div>
+
+      <div
+        class="container mx-auto px-4 flex flex-wrap items-center justify-between py-4 border-t border-gray-700"
+      >
+        <div class="text-center lg:text-left">
+          <div class="copyright">
+            &copy; <strong>SeaGate Electric</strong>. All Rights Reserved
+          </div>
+        </div>
+        <div class="text-center">
+          <div>
+            Designed by
+            <a
+              href="https://jonestah.com/"
+              class="hover:underline text-gray-500"
+              >Jones & Estah Systems</a
+            >
+          </div>
+        </div>
+        <div class="social-links flex space-x-4 pt-4 lg:pt-0">
+          <a href="#" class="text-gray-400 hover:text-white"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="#" class="text-gray-400 hover:text-white"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="#" class="text-gray-400 hover:text-white"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="#" class="text-gray-400 hover:text-white"
+            ><i class="bx bxl-skype"></i
+          ></a>
+          <a href="#" class="text-gray-400 hover:text-white"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
       </div>
-      <div class="social-links flex space-x-4 pt-4 lg:pt-0">
-        <a href="#" class="text-gray-400 hover:text-white"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="text-gray-400 hover:text-white"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="text-gray-400 hover:text-white"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="text-gray-400 hover:text-white"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="text-gray-400 hover:text-white"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer>
-  
-  <a href="#" class="fixed bottom-4 right-4 w-12 h-12 bg-gray-800 text-white rounded-full flex items-center justify-center hover:bg-gray-700 transition">
-    <i class="bi bi-arrow-up-short text-xl"></i>
-  </a>
-      
-</body>
+    </footer>
+
+    <a
+      href="#"
+      class="fixed bottom-4 right-4 w-12 h-12 bg-gray-800 text-white rounded-full flex items-center justify-center hover:bg-gray-700 transition"
+    >
+      <i class="bi bi-arrow-up-short text-xl"></i>
+    </a>
+  </body>
 </html>
